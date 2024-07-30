@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS albums;
+
+CREATE DATABASE albums;
