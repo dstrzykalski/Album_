@@ -1,4 +1,4 @@
-const {all} = require('../models');
+const {All} = require('../models');
 
 const allData = [
     {
@@ -32,7 +32,7 @@ const allData = [
         "Rank": 5
     },
 ];
-
-const seedAll = () => all.bulkCreate(allData);
+console.log(All);
+const seedAll = () => All.bulkCreate(allData);
 
 module.exports = seedAll;
